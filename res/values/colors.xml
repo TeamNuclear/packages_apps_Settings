@@ -80,6 +80,7 @@
 
     <color name="card_background">#ffffffff</color>
 
+    <color name="dashboard_background_color">#ffffff</color>
     <color name="switchbar_background_color">#ff37474f</color>
     <color name="switch_accent_color">#ff7fcac3</color>
 
