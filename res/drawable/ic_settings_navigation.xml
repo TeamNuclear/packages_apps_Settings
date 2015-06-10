@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright (c) 2015 SlimRoms
+
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
+
         http://www.apache.org/licenses/LICENSE-2.0
+
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,7 +21,7 @@
     android:viewportHeight="24">
 
     <path
-        android:fillColor="?android:attr/colorAccent"
+        android:fillColor="#009587"
         android:pathData="M5.9988 0.49493c-2.7857-0.06811-5.3371 2.294-5.484 5.0764-0.28157 2.775 1.8799
 5.5017 4.6455 5.8607 2.7005 0.478 5.5397-1.391 6.1657-4.0612
 0.743-2.6427-0.836-5.6553-3.4346-6.5426-0.6047-0.22147-1.2487-0.3337-1.8926-0.33327zm12
