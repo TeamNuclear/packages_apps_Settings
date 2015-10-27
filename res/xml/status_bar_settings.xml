@@ -11,4 +11,10 @@
             android:fragment="com.android.settings.simpleaosp.NetworkTraffic"
             android:summary="@string/network_traffic_summary"
             android:title="@string/network_traffic_title" />
+
+    <PreferenceScreen
+        android:fragment="com.android.settings.nuclear.StatusBarClockStyle"
+        android:key="clock_style_pref"
+        android:title="@string/status_bar_clock"
+	    android:summary="@string/status_bar_clock_summary" />
 </PreferenceScreen>
