@@ -72,6 +72,38 @@
 
     </dashboard-category>
 
+    <!-- PERSONALIZATION -->
+    <dashboard-category
+            android:id="@+id/personalization_section"
+            android:title="@string/header_category_personalization" >
+
+    
+    <!-- NuclearMod-->
+        <dashboard-tile
+                android:id="@+id/main_settings"
+                android:title="@string/nuclear_settings_title"
+                android:fragment="com.android.settings.nuclear.MainSettings"
+                android:icon="@drawable/ic_nuclear_exposed"
+                />  
+
+    <dashboard-tile  
+        android:icon="@drawable/ic_bitsyko_layers_exposed" 
+                android:title="@string/bitsyko_layers_str">
+         <!--   <intent android:targetPackage="com.lovejoy777.rroandlayersmanager" android:action="android.intent.action.MAIN" android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />-->
+        </dashboard-tile> 
+
+        <dashboard-tile
+                android:id="@+id/nuclear_ota"
+                android:title="@string/nuclear_ota_title"
+                android:icon="@drawable/ic_nuclearota_exposed">
+              <!--   <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.fusionjack.slimota"
+                    android:targetClass="com.fusionjack.slimota.MainActivity" />-->
+        </dashboard-tile>  
+
+        </dashboard-category>
+
     <!-- DEVICE -->
     <dashboard-category
             android:id="@+id/device_section"

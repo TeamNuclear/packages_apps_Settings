@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Team Nuclear -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	 <!-- Nuclear Menu -->
+    <string name="header_category_personalization">Personalization</string>
+    <!--Nuclear-->
+    <string name="nuclear_cat_title">Performance</string>
+    <string name="nuclear_settings_title">Nuclear Settings</string>
+    <string name="nuclear_cat_privacy_title">Privacy</string>
+    <string name="nuclear_perso_title">Personalization</string>
+
+    <!-- Navigation settings -->
+    <string name="navigation_settings_options_title">Navigation options</string>
+    <string name="navigation_settings_title">Navigation</string>
+
+    <!-- nuclearbloq -->
+    <string name="nuclear_bloq_title">LockScreen Settings</string>
+
+    <!-- nuclearmisc -->
+    <string name="misc_category_title">Miscellaneous</string>
+
+    <string name="app_security_title">App security</string>
+
+<!--layers-->
+    <string name="bitsyko_layers_str">Layers</string>
+
+<!-- Nuclear OTA -->
+	<string name="nuclear_ota_title">NuclearOTA</string>
+
+<!--animaciones-->
+    <string name="nuclear_animaciones_settings">Animation</string>
+    <string name="animaciones_settings_title">Animation</string>
+
+</resources>

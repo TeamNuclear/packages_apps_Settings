@@ -585,6 +585,120 @@
                 android:resource="@id/application_settings" />
         </activity>
 
+        <!-- Nuclear Settings -->
+        <activity android:name="Settings$MainSettingsActivity"
+             android:label="@string/nuclear_settings_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.nuclear.MainSettings" />
+        </activity>
+
+        <activity
+        
+             android:name=".nuclear.MainSettings" />
+
+    <!-- Nuclear personalizacion -->
+        <activity android:name="Settings$perso"
+             android:label="@string/nuclear_perso_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.nuclear.personalizacion.personalizacion" />
+        </activity>
+
+        <activity
+        
+             android:name=".nuclear.personalizacion.personalizacion" />
+
+    <!-- Nuclear bloq -->
+        <activity android:name="Settings$bloq"
+             android:label="@string/nuclear_bloq_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.nuclear.bloq.bloq" />
+        </activity>
+
+        <activity
+        
+             android:name=".nuclear.bloq.bloq" />
+
+    <!-- seguridad aplicaciones -->
+        <activity android:name="Settings$segapp"
+             android:label="@string/app_security_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.nuclear.segapp.segapp" />
+        </activity>
+
+        <activity
+        
+             android:name=".nuclear.segapp.segapp" />
+
+<!-- rendimiento -->
+        <activity android:name="Settings$rend"
+             android:label="@string/nuclear_cat_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.nuclear.rend.rend" />
+        </activity>
+
+        <activity
+        
+             android:name=".nuclear.rend.rend" />
+
+    <!-- Miscelanea -->
+        <activity android:name="Settings$misc"
+             android:label="@string/misc_category_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.nuclear.misc.misc" />
+        </activity>
+
+        <activity
+        
+             android:name=".nuclear.misc.misc" />
+
+
+
+        <!--animaciones-->     
+        <activity android:name="Settings$anim"
+             android:label="@string/animaciones_settings_title"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.nuclear.animaciones.animaciones" />
+        </activity>
+
+        <activity
+        
+             android:name=".nuclear.animaciones.animaciones" />
+
         <activity android:name="Settings$KeyboardLayoutPickerActivity"
                 android:label="@string/keyboard_layout_picker_title"
                 android:clearTaskOnLaunch="true">
