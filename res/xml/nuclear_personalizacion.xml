@@ -25,7 +25,7 @@
 
    		</PreferenceScreen>
 
-   		  <!-- Navigation 
+   		  <!-- Navigation -->
         <PreferenceScreen
                 android:key="navigation"
                 android:id="@+id/navigation_settings"
@@ -33,5 +33,5 @@
                 android:fragment="com.android.settings.nuclear.NavigationSettings"
                 android:title="@string/navigation_settings_title">
 
-      	</PreferenceScreen>-->
+      	</PreferenceScreen>
 </PreferenceScreen>

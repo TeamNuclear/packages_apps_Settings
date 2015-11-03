@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Team Nuclear -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/navigation_settings_options_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceScreen
+         android:key="power_menu_general_category"
+        android:fragment="com.android.settings.nuclear.PowerMenuActions"
+         android:title="@string/power_menu_title" />
+
+       <!-- DeviceHandler device specific screen off gesture settings 
+    <PreferenceScreen
+            android:key="offscreen_gestures"
+            android:title="@string/offscreen_gestures_title">
+            <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetClass="org.omnirom.device.DeviceSettings"
+                    android:targetPackage="org.omnirom.device" />
+        </PreferenceScreen>-->
+
+</PreferenceScreen>
