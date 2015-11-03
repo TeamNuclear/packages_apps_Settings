@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
  <resources> 
-<!-- Gesture Anywhere -->
+    <!-- Gesture Anywhere -->
     <color name="ga_gesture_color">@android:color/holo_blue_light</color>
     <color name="dashboard_border_color">@color/exposed_bg_dark</color>
+    
+    <!-- Dashboard background color -->
+    <color name="dashboard_category_background_color">@color/exposed_bg_dark</color>
  </resources>
