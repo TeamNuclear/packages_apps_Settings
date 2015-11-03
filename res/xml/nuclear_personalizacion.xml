@@ -7,14 +7,14 @@
     android:title="@string/nuclear_perso_title" >
 
 
-        <!-- Interface 
+        <!-- Interface -->
         <PreferenceScreen
                 android:key="interface"
                 android:id="@+id/interface_settings"
                 android:icon="@drawable/ic_settings_interface"
                 android:fragment="com.android.settings.nuclear.InterfaceSettings"
                 android:title="@string/interface_settings_title">
-         </PreferenceScreen>-->
+         </PreferenceScreen>
 
          <!-- gesture_anywhere 
     	<PreferenceScreen
