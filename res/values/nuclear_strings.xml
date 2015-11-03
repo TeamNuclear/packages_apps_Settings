@@ -6,6 +6,10 @@
 	 <!-- Nuclear Menu -->
     <string name="header_category_personalization">Personalization</string>
     <!--Nuclear-->
+    <string name="nuclear_title">Version Nuclear</string>
+    <string name="nuclear_version">V1.0 BETA</string>
+
+
     <string name="nuclear_cat_title">Performance</string>
     <string name="nuclear_settings_title">Nuclear Settings</string>
     <string name="nuclear_cat_privacy_title">Privacy</string>

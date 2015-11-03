@@ -64,6 +64,13 @@
                 android:title="@string/model_number"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Nuclear Info -->
+
+        <Preference android:key="nuclear_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/nuclear_title"
+                android:summary="@string/nuclear_version"/>
+
         <!-- Device firmware version -->
         <Preference android:key="firmware_version"
                 style="?android:preferenceInformationStyle"
