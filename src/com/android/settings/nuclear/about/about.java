@@ -134,4 +134,8 @@ private static final String NS_ROM_SHARE = "share";
         Intent donate = new Intent(Intent.ACTION_VIEW, uriUrl);
         getActivity().startActivity(donate);
     }
+     @Override
+    protected int getMetricsCategory() {
+    return 1;
+    }
 }
