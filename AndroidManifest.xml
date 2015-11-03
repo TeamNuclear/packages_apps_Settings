@@ -699,6 +699,11 @@
         
              android:name=".nuclear.animaciones.animaciones" />
 
+             <!--Gesture AnyWhere-->
+         <activity android:name=".nuclear.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name=".nuclear.gestureanywhere.GestureAnywhereCreateGestureActivity" />
+ 
+
         <activity android:name="Settings$KeyboardLayoutPickerActivity"
                 android:label="@string/keyboard_layout_picker_title"
                 android:clearTaskOnLaunch="true">
