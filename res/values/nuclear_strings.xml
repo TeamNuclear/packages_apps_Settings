@@ -73,4 +73,6 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
+    <string name="nuclear_extras_systemuituner">SystemUI Tuner</string>
+
 </resources>

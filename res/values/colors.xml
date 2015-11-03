@@ -18,6 +18,12 @@
     <color name="black">#000</color>
     <color name="red">#F00</color>
     <color name="blue">#00F</color>
+    <color name="white">#FFF</color>
+
+    <!-- Palette colors referenced by top-level themes. -->
+    <color name="theme_primary">#ff263238</color>
+    <color name="theme_primary_dark">#ff21272b</color>
+    <color name="theme_accent">#ff009688</color>
 
     <color name="material_empty_color_light">#FFCED7DB</color>
 
