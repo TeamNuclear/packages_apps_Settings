@@ -152,4 +152,36 @@
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
     <string name="power_menu_title">Power menu</string>
 
+ <!-- About NuclearSlim -->
+    <string name="about_ns_settings_title">Sobre NuclearSlim</string>
+    <string name="share_ns">Todo sobre NuclearSLim</string>
+    <string name="ns_donate">Aporta una donación al NuclearTeam</string>
+    <string name="ns_donate_summary">Dando soporte a NuclearTeam</string>
+    <string name="github_tn">https://github.com/TeamNuclear</string>
+    <string name="ns">Links</string>
+    <string name="ns_kernel_title">Kernel Website</string>
+    <string name="ns_kernel_summary">Mas informacion acerca del kernel</string>
+    <string name="ns_forum_title">NuclearSlim ForumSite</string>
+    <string name="ns_forum_summary">Consulta las ultimas descargas</string>
+    <string name="ns_source_title">Github</string>
+    <string name="ns_source_summary">NuclearSlim Sources</string>
+    <string name="sourcebase_title">Source Base</string>
+    <string name="title_about">Acerca de NuclearSlim</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title_summary">Consulta los changelogs</string>
+    <string name="team_nuclear">Miembros TeamNuclear</string>
+    <string name="moludo">Moludo</string>
+    <string name="lozo">Lozo</string>
+    <string name="acuicultor">Acuicultor</string>
+    <string name="evuz">Evuz</string>
+    <string name="victoria">Victoria</string>
+    <string name="juan">Maskaos</string>
+    <string name="arma">Armallones</string>
+    <string name="sonia">UnaiMunariz</string>
+    <string name="chris">pSyCh¤_O_O</string>
+    <string name="jc">JCEspi2005</string>
+    <string name="juanlu">Zatu491</string>
+    <string name="ns_sourcebase">SlimRoms</string>
+    <string name="ns_sourcebase_sumary">https://github.com/SlimRoms</string>
+
 </resources>

@@ -18,7 +18,7 @@
         android:title="@string/about_settings">
 
 	<PreferenceScreen android:key="nuclear_logo"
-		android:enabled="false"
+		android:fragment="com.android.settings.nuclear.about.about"
 		android:layout="@layout/nuclear_logo_row" />                         				
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"

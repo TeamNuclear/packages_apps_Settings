@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- About TeamNuclear, sources...forums...etc...-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:title="@string/about_ns_settings_title" >
+
+    <!-- Share NS ROM -->
+         <Preference
+             android:key="share"
+             android:title="@string/share_ns" />
+                
+ 	<PreferenceCategory
+		android:key="links"
+		android:title="@string/ns"> 
+        <!-- Change Log -->
+        <Preference 
+            android:key="ns_change"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_title_summary" />
+        <!-- Foro -->     
+		<Preference
+			android:key="ns_forum"
+			android:title="@string/ns_forum_title"
+			android:summary="@string/ns_forum_summary" />
+		<!-- pagina kernel -->	
+		<Preference
+			android:key="ns_kernel"
+			android:title="@string/ns_kernel_title"
+			android:summary="@string/ns_kernel_summary" />
+        <!-- sources github -->
+		<Preference
+			android:key="ns_source"
+			android:title="@string/ns_source_title"
+			android:summary="@string/ns_source_summary" />
+		<!-- Pagina para donaciones -->	
+		<Preference
+			android:key="ns_donate"
+			android:title="@string/ns_donate"
+			android:summary="@string/ns_donate_summary" />
+                			
+     </PreferenceCategory>
+
+     <PreferenceCategory
+        android:key="sourcebase"
+        android:title="@string/sourcebase_title">
+                
+        <Preference
+            android:key="ns_sourcebase"
+            android:title="@string/ns_sourcebase"
+            android:summary="@string/ns_sourcebase_sumary" />
+
+    </PreferenceCategory>
+		<!-- Equipo Nuclear -->		
+	<PreferenceCategory
+        android:key="teamnuclear"
+        android:title="@string/team_nuclear"> 
+        
+        <PreferenceScreen android:key="moludo"
+        android:title="@string/moludo" />         
+        <PreferenceScreen android:key="lozo"
+        android:title="@string/lozo" />
+        <PreferenceScreen android:key="acuicultor"
+        android:title="@string/acuicultor" />
+        <PreferenceScreen android:key="evuz"
+        android:title="@string/evuz" />
+        <PreferenceScreen android:key="chris"
+        android:title="@string/chris" />
+        <PreferenceScreen android:key="victoria"
+        android:title="@string/victoria" />
+        <PreferenceScreen android:key="jc"
+        android:title="@string/jc" />  
+        <PreferenceScreen android:key="sonia"
+        android:title="@string/sonia" />              
+        <PreferenceScreen android:key="arma"
+        android:title="@string/arma" />
+        <PreferenceScreen android:key="juan"
+        android:title="@string/juan" />
+	<PreferenceScreen android:key="juanlu"
+        android:title="@string/juanlu" />
+    </PreferenceCategory>
+            
+</PreferenceScreen>
