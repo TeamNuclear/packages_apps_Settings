@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <!-- Network Traffic-->
+    <declare-styleable name="SeekBarPreference">
+		<attr name="netMin" format="integer" />
+    	<attr name="netUnitsLeft" format="string" />
+    	<attr name="netUnitsRight" format="string" />
+     </declare-styleable>
+ </resources>
