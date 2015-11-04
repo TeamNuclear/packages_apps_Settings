@@ -13,6 +13,12 @@
         android:fragment="com.android.settings.nuclear.StatusBar"
         android:title="@string/status_bar_title" />
 
+    <com.android.settings.nuclear.util.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_to_sleep_title"
+        android:summary="@string/double_tap_to_sleep_summary"
+        android:defaultValue="true" />
+
         <PreferenceScreen
             android:key="systemuituner"
             android:title="@string/nuclear_extras_systemuituner"
