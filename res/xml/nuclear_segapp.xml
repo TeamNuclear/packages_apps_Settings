@@ -6,5 +6,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/app_security_title" >
 
+   <!-- SuperSu-->
+   <PreferenceScreen
+        android:key="supersu"
+       	android:title="@string/supersu_title"
+     	android:icon="@drawable/ic_supersu">
+        	<intent android:targetPackage="eu.chainfire.supersu"
+    		  android:action="android.intent.action.MAIN"
+             	android:targetClass="eu.chainfire.supersu.MainActivity" >
+         	</intent>  
+    </PreferenceScreen>
+
+
 
 </PreferenceScreen>
